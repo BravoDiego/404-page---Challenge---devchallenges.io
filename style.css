@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
+
 * {
     margin: 0px;
 }
@@ -109,7 +110,8 @@ footer {
 }
 
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
+
 
     #main {
         margin: 0px;
@@ -167,4 +169,11 @@ footer {
     }
 
     
+}
+
+
+@media (min-width: 1400px) {
+    h1 {
+        width: 750px;
+    }
 }
